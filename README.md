@@ -1,5 +1,5 @@
 # light-years-converter
-programm convert light years in kilometres / website interface
+program convert light years in kilometres / website interface
 
 The program allows users to convert light years to kilometers using a web interface.
  When the button is pressed, the event handler extracts the value entered by the 
