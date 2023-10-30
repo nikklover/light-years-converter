@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+
+Лабораторная работа № 3 Светов Николай 21ВИ1 Вариант 21
+
+Задание: Конвертер космических расстояний свет. год км 
+(сконвертированные значения должны добавляться в таблицу
+на странице после выполнения конвертации).
+
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> CosmoConverter</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1>  Лабораторная работа № 3 <br> студента гр. 21ВИ1 Светова Николая В. </br> </h1>
+        </header>
+        
+        
+        <p class="first">Конвертер космических расстояний свет. год в км 
+        (сконвертированные значения должны добавляться в таблицу на 
+        странице после выполнения конвертации)
+        </p>
+        
+        
+        <div id="container">
+            <label for="lightYears">Световые года:</label>
+            <input type="number" id="lightYears">
+            <button onclick="convert()">Конвертировать</button>
+        </div>
+        <p id="kilo">
+              
+        </p>
+        <table id="resultTable">
+            <tr>
+                <th>№</th>
+                <th>Световые года</th>
+                <th>Километры</th>
+            </tr>
+        </table>
+
+        
+    
+        
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

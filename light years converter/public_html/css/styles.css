@@ -1,0 +1,60 @@
+body {
+   background-image: url("../image/back.jpg");
+   background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+     
+}
+h1 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    animation: rainbow 100s infinite;
+}
+
+@keyframes rainbow {
+    0% {color: blue;}
+    20% {color: white;}
+    40% {color: blue;}
+    60% {color: white;}
+    80% {color: blue;}
+    100% {color: white;}
+}
+
+.first{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    max-width:300px;
+    margin: 0 auto;
+    
+}
+/*.second{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    max-width:300px;
+    margin: 0 auto;
+}
+*/
+
+#container{
+    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resultTable {
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+
